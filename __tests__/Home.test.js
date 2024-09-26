@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Home from '../src/app/page';
+import React from 'react';
 
 describe('Home', () => {
   it('renders the Next.js logo', () => {
